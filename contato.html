@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Loja Shopee</title>
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="landing.html"><h1>Achados da Shopee</h1></a>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Entre em contato!</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="Sua mensagem" rows="4"></textarea>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="data-consent" name="data-consent" required>
+                    <label for="data-consent">Eu aceito compartilhar meus dados</label>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

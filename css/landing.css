@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9dfc8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-page {
+    text-align: center;
+    max-width: 97.5%;
+}
+
+.titulo {
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 3.95rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #333;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.titulo::first-letter {
+    text-transform: uppercase;
+    color: #ff6347;
+}
+
+.imagem-representacao {
+    max-width: 100%;
+    margin: 60px 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn-entrar {
+    background-color: #ff6347;
+    font-family: "Playwrite DE Grund", cursive;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-entrar:hover {
+    background-color: #ec573c;
+}
+.gif-container {
+    position: fixed; 
+    bottom: 20px;   
+    left: 20px;     
+    z-index: 1000;  
+}
+
+.gif {
+    width: 300px;   
+    height: auto;   
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .imagem-representacao {
+        margin: 30px 0;
+    }
+
+    .btn-entrar {
+        font-size: 1.25rem;
+    }
+}
