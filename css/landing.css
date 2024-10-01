@@ -37,7 +37,7 @@ body {
 }
 
 .btn-entrar {
-    background-color: #ff6347;
+    background-color: #f18242;
     font-family: "Playwrite DE Grund", cursive;
     color: rgb(255, 255, 255);
     border: none;
@@ -49,7 +49,7 @@ body {
 }
 
 .btn-entrar:hover {
-    background-color: #ec573c;
+    background-color: #f37329;
 }
 .gif-container {
     position: fixed; 
