@@ -24,6 +24,12 @@ body {
     margin-right: 10px;
 }
 
+.d-flex .fa-user {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+}
+
 .d-flex .ms-2{
     text-decoration: none;
     color: white;
