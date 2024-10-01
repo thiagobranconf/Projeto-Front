@@ -56,6 +56,7 @@ function renderizarCarrinho() {
         const finalizarButton = document.createElement('button');
         finalizarButton.className = 'btn-finalizar';
         finalizarButton.textContent = 'Finalizar Compra';
+        finalizarButton.id = 'finalizar-compra';
         container.appendChild(finalizarButton);
     } else {
         container.textContent = 'Seu carrinho está vazio!';
@@ -70,5 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Carrinho limpo!');
         carrinho = [];
         renderizarCarrinho();
+    });
+
+
+document.getElementById('finalizar-compra').addEventListener('click', () => {
+    alert('Obrigado por comprar conosco!');
     });
 });
