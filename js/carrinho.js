@@ -58,7 +58,7 @@ function renderizarCarrinho() {
         finalizarButton.textContent = 'Finalizar Compra';
         container.appendChild(finalizarButton);
     } else {
-        container.textContent = 'Seu carrinho está vazio.';
+        container.textContent = 'Seu carrinho está vazio!';
     }
 }
 
